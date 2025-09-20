@@ -156,6 +156,15 @@ CLI:
 
 ---
 
+## Documentación (`./docs`)
+
+En el directorio `./docs` se incluyen los materiales de referencia:
+
+- **Reporte en PDF** generado a partir del código LaTeX.
+- **Código fuente LaTeX** en un archivo `.zip` que contiene el `.tex` principal junto con una imagen, no trojanos ni minadores de bitcoin fueron escondidos en el.
+
+---
+
 ## Estructura
 
 ```
@@ -169,4 +178,7 @@ CLI:
 └─ out_mc/        # generado por mc_compare.py
    ├─ mc_results.csv
    └─ mc_results_table.tex
+└─ docs/        # generado por overleaf
+   ├─ Tarea2.pdf
+   └─ Tarea2.zip #.tex y una imagen
 ```

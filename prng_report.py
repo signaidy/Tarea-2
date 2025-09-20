@@ -270,7 +270,7 @@ def main():
     parser = argparse.ArgumentParser(description="PRNG demo: histogramas y pruebas de uniformidad/independencia")
     parser.add_argument("--n", type=int, default=100_000, help="tamaño de muestra por generador")
     parser.add_argument("--bins", type=int, default=50, help="bins para histogramas/chi-cuadrado")
-    parser.add_argument("--out", type=str, default="out", help="directorio de salida")
+    parser.add_argument("--out", type=str, default="out_prng", help="directorio de salida")
     parser.add_argument("--seed", type=int, default=12345, help="semilla base")
     parser.add_argument("--compare", type=str, default="RANDU",
                         help="Algoritmo a comparar con random y secrets (opciones: LCG, MiddleSq, RANDU, BBS, MT)")

@@ -67,7 +67,7 @@ python prng_report.py --seed 777
 
 ### Output
 
-En `out/` (o la carpeta que pongas en `--out`):
+En `out_prng/` (o la carpeta que pongas en `--out`):
 
 * `*_hist.png` — histogramas por PRNG.
 * `cmp_<ALG>_hist.png`, `cmp_MT_hist.png`, `cmp_secrets_hist.png` — histogramas de la comparación.
@@ -163,7 +163,7 @@ CLI:
 ├─ prng_report.py
 ├─ mc_compare.py
 ├─ README.md
-├─ out/           # generado por prng_report.py
+├─ out_prng/           # generado por prng_report.py
 │  ├─ *_hist.png
 │  └─ reporte.txt
 └─ out_mc/        # generado por mc_compare.py

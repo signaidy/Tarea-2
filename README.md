@@ -28,8 +28,6 @@ pip install -U pip
 pip install numpy matplotlib scipy
 ````
 
-> Si compilas LaTeX, asegúrate de tener `graphicx`, `booktabs`, `tabularx`.
-
 ---
 
 # 1) `prng_report.py` — PRNGs, histogramas y tests
@@ -108,8 +106,6 @@ Utilidades:
 * Exporta **CSV** y **tabla LaTeX** (`mc_results_table.tex`) lista para `\input{...}`.
 
 ### Cómo correr
-
-* Mismo setup que antes, si ya lo hiciste solo correlo con:
 
 ```bash
 # por defecto: n=200000, other=RANDU, out=out_mc, seed=12345
